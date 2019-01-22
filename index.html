@@ -1,0 +1,176 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <title>TILT</title>
+
+    <link rel="icon" type="image/png" href="{% static 'images/logo.ico' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">
+    <link rel="mask-icon" href="{% static 'favicon/safari-pinned-tab.svg' %}" color="#404552">
+    <link rel="shortcut icon" href="{% static 'favicon/favicon.ico' %}">
+    <meta name="apple-mobile-web-app-title" content="Graines d'Images">
+    <meta name="application-name" content="Graines d'Images">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="{% static 'favicon/browserconfig.xml' %}">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:image:height" content="464">
+    <meta property="og:image:width" content="886">
+    <meta property="og:description" content="L'association photo de l'INSA Lyon">
+    <meta property="og:title" content="Graines d'Images">
+    <meta property="og:url" content="https://grainesdimages.fr">
+    <meta property="og:image" content="https://grainesdimages.fr/static/social/og-image.jpg">
+
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" value="fr-FR"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css"
+          rel="stylesheet" media="screen">
+    <link href="css/intramwet.css"
+          rel="stylesheet" media="screen">
+    <link href="css/navbar.css"
+          rel="stylesheet" media="screen">
+
+    <link href="css/accueil_static.css"
+                    rel="stylesheet" media="screen">
+
+    <style type="text/css">
+                  .bg-cover {
+                      width: 100%;
+                      background-image: url("img/img4.jpg");
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                      min-height: 100vh;
+                      position: absolute;
+                      top: 0;
+                  }
+    </style>
+</head>
+
+<body>
+
+<div class="wrapper">
+    {% block navbar %}{% endblock %}
+
+    <div id="site-wrapper">
+
+      <div class="container-fluid-accueil bg-cover">
+          <div class="jumbotron jumbotron-fluid bg-cover full">
+              <img id="title_logo" src="img/logotypo_negatif.png" alt="TILT"/>
+              <h2 class="subtitleLaMouette">La solution de surveillance par drone</h2>
+              <a class="monBouton bouton-principal" href="#presentation">En savoir plus</a>
+          </div>
+
+          <div style="min-height: 100vh"></div>
+
+          <div class="container-fluid-accueil">
+              <div id="presentation" class="categorie presentation">
+                  <h3 class="titre_categorie">Qu'est-ce que TILT ?</h3>
+
+                  <div class="trait"></div>
+
+                  <p>
+                      TILT est un projet de surveillance par drone bullshit etc
+                  </p>
+
+                  <div class="row">
+                      <div class="col-md-3 small-categorie">
+                          <h3 class="categorie-icon"><i class="fas fa-shipping-fast"></i></h3>
+                          <h3 class="categorie-title">Déploiement Rapide</h3>
+                          <p class="categorie-text">
+                              Un local permettant aux membres de l'association de pouvoir s'initier à la photo en studio ou au développement et au tirage argentique.
+                              Nous disposons aussi de matériel empruntable par les membres.
+                          </p>
+                      </div>
+                      <div class="col-md-3 small-categorie">
+                          <h3 class="categorie-icon"><i class="fas fa-plane"></i> </h3>
+                          <h3 class="categorie-title">Solution Nomade</h3>
+                          <p class="categorie-text">
+                              L'association permet de couvrir divers evénements tels que concerts, pièces de théâtre, compétitions sportives, événements étudiants...
+                          </p>
+                      </div>
+                      <div class="col-md-3 small-categorie">
+                          <h3 class="categorie-icon"><i class="fas fa-laptop"></i></h3>
+                          <h3 class="categorie-title">Interface Simplifiée</h3>
+                          <p class="categorie-text">
+                              Débutant ou confirmé, vous pourrez découvrir et améliorer vos
+                              compétences de la prise de vue, au traitement d'images.
+                          </p>
+                      </div>
+                      <div class="col-md-3 small-categorie">
+                          <h3 class="categorie-icon"><i class="fas fa-user"></i></h3>
+                          <h3 class="categorie-title">Gestion Facile</h3>
+                          <p class="categorie-text">
+                              Pratique de la photo à travers de stages proposés par les membres et la réalisation de projets. Sorties en ville, en montagne, pour s'essayer aux différentes techniques.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
+              <div id="infos" class="categorie permanence">
+                  <h3 class="titre_categorie">Nos Partenaires</h3>
+
+                  <div class="trait"></div>
+
+                  <p>
+                      Voici nos partenaires majeurs :
+                  </p>
+                  <p>
+                    Photos en ligne de dji, insa, etc
+                  </p>
+              </div>
+
+              <div id="plan" class="plan">
+              </div>
+
+              <div id="contact" class="categorie contact">
+                  <h3 class="titre_categorie">Nous contacter, nous suivre</h3>
+
+                  <div class="trait"></div>
+
+                  <a class="lien" href="mailto:pils.tilt@gmail.com"><i class="far fa-envelope fa-lg symbole-contact"></i></a>
+              </div>
+
+              <div class="categorie footer">
+                  <p style="text-align: center"><i class="far fa-copyright"></i> Copyright Tilt &middot;
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+
+</div>
+
+</body>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
+        integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+<script src="js/intramwet.js"></script>
+
+</html>
