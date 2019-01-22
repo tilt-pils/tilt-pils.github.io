@@ -1,3 +1,8 @@
+
+html {
+    scroll-behavior: smooth
+}
+
 .categorie {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -23,6 +28,7 @@
     height: 100vh;
     width:  100vw;
 }
+
 
 .jumbotron {
     margin-bottom: 0 !important;
