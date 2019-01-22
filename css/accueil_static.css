@@ -80,7 +80,7 @@
     padding-left: 3em;
     border-radius: 2em;
     color: white;
-    background-color: #00586a;
+    background-color: #F96C5A;
 
     transition: background-color .3s;
 }
@@ -88,14 +88,14 @@
 .monBouton:hover {
     text-decoration: none!important;
     color: white!important;
-    background-color: #002e3b;
+    background-color: #b24033;
 }
 
 .bouton-secondaire {
-    background-color: #9d0018;
+    background-color: #8A65C5;
 }
 .bouton-secondaire:hover {
-    background-color: #4c0916;
+    background-color: #5c349b;
 }
 
 .no-margin {
@@ -215,7 +215,7 @@
 
 @media (min-width: 1000px) {
     #title_logo {
-        height: 40em;
+        height: 25em;
     }
 }
 
