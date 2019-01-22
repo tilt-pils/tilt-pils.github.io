@@ -213,9 +213,9 @@
     padding-right: 3em;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 1000px) {
     #title_logo {
-        height: 10em;
+        height: 40em;
     }
 }
 
